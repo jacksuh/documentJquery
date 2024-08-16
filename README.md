@@ -4,7 +4,7 @@ Criação do site com o intuito de aplicar os conhecimentos em JavaScript utiliz
 
 ## ⚙️ Funcionalidades
 - [x] Trabalhando com o DOM.
-- [x] Salvar documento em um diretorio.
+- [x] Salvar documento em um diretorio. (Requisição AJAX)
 - [x] Lista de documentos gravados.
 
 
