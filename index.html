@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload e Visualização de Documentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Upload de Documentos</h1>
+        <form id="uploadForm">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" name="titulo" required>
+
+            <label for="descricao">Descrição:</label>
+            <input type="text" id="descricao" name="descricao">
+
+            <label for="file">Selecione o arquivo PDF:</label>
+            <input type="file" id="file" name="file" accept="application/pdf" required>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="response"></div>
+
+        <h2>Lista de Documentos</h2>
+        <ul id="documentList"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
